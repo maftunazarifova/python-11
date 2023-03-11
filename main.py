@@ -111,17 +111,24 @@
 # FIZZBUZZ ni funksiya yordamida ishlatish.
 
 
-def fizzbuzz(num):
-    if num % 3 == 0 and num % 5 == 0:
-        return"FIZZBUZZ"
-    elif num % 3 == 0:
-        return "FIZZ"
-    elif num % 5 == 0:
-        return "BUZZ"
-    else:
-        return num
+# def fizzbuzz(num):
+#     if num % 3 == 0 and num % 5 == 0:
+#         return"FIZZBUZZ"
+#     elif num % 3 == 0:
+#         return "FIZZ"
+#     elif num % 5 == 0:
+#         return "BUZZ"
+#     else:
+#         return num
 
-print(fizzbuzz(3))
-print(fizzbuzz(5))
-print(fizzbuzz(15))
-print(fizzbuzz(17))
+# print(fizzbuzz(3))
+# print(fizzbuzz(5))
+# print(fizzbuzz(15))
+# print(fizzbuzz(17))
+
+#########################################################################################
+
+# #Bir qatorda funksiyani e'lon qilish.
+# calc = lambda a, b, c,: eval(f"{a}{b}{c}")
+# print(calc(12, 13, "+"))
+# 
